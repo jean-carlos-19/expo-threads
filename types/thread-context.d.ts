@@ -1,4 +1,4 @@
 interface ThreadContextType {
-    threads: Thread[];
-    setThreads: React.Dispatch<React.SetStateAction<Thread[]>>;
+ threads: Thread[];
+ setThreads: React.Dispatch<React.SetStateAction<Thread[]>>;
 }
