@@ -21,6 +21,7 @@
   "eslint": "^8.56.0",
   "expo": "~50.0.2",
   "expo-font": "~11.10.2",
+  "expo-image": "~1.10.4",
   "expo-linking": "~6.2.2",
   "expo-router": "~3.4.3",
   "expo-splash-screen": "~0.26.3",
