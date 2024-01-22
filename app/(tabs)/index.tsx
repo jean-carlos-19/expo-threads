@@ -1,5 +1,5 @@
 import { View } from '@/components/Themed';
-import ThreadItem from '@/components/home/thread-item';
+import Threads from '@/components/home/threads';
 import { ThreadContext } from '@/context/thread-contentx';
 import Lottie from 'lottie-react-native';
 import React, { useContext, useRef } from 'react';
@@ -32,11 +32,7 @@ export default function TabOneScreen() {
      source={require('../../lottie-animations/Animation - 1705791165948.json')}
      style={{ width: 90, height: 90, alignSelf: 'center' }}
     />
-    <View>
-     {threads.threads.map((thread) => (
-      <ThreadItem thread={thread} key={thread.id} />
-     ))}
-    </View>
+    <Threads threads={threads} />
    </ScrollView>
   </View>
  );
